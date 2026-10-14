@@ -102,6 +102,9 @@ nav a:hover{opacity:1;color:var(--rosa)}
 .arrows{display:flex;gap:10px;justify-content:center;margin-top:18px}
 .arrows button{width:46px;height:46px;border-radius:50%;border:2px solid var(--carvao);background:#fff;font-size:1.2rem;cursor:pointer;transition:.2s}
 .arrows button:hover{background:var(--rosa);border-color:var(--rosa)}
+.tour{max-width:320px;margin:40px auto 0;text-align:center}
+.tour video{width:100%;border-radius:18px;background:#000;box-shadow:0 18px 44px rgba(43,42,41,.2)}
+.tour p{margin-top:10px;font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--muted)}
 .ig{text-align:center;margin-top:26px}
 .btn-dark{background:var(--carvao);color:#fff}
 .btn-dark:hover{background:var(--rosa-forte)}
@@ -226,6 +229,12 @@ footer .soc a{color:var(--rosa);font-weight:600;letter-spacing:.1em;text-transfo
         <button type="button" id="prev" aria-label="Anterior">←</button>
         <button type="button" id="next" aria-label="Próximo">→</button>
       </div>
+    </div>
+    <div class="tour reveal">
+      <video controls playsinline preload="metadata" poster="media/tour-poster.jpg" aria-label="Tour pelo Studio Fraan Santos">
+        <source src="media/tour.mp4" type="video/mp4">
+      </video>
+      <p>Faça um tour pelo studio</p>
     </div>
     <p class="ig reveal"><a class="btn btn-dark" href="https://instagram.com/studio_fraanstts" target="_blank" rel="noopener">Ver mais trabalhos no Instagram</a></p>
   </div>
